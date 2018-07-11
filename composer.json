@@ -1,0 +1,21 @@
+{
+    "name": "zulfikaradnan/visitor",
+    "description": "Get visitor by ip and device",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Zulfikar Adnan",
+            "email": "zulfikar.adn@gmail.com"
+        }
+    ],
+    "require": {
+        "geoip2/geoip2": "^2.9",
+        "piwik/device-detector": "^3.10"
+    },
+    "autoload": {
+        "psr-4": {
+            "ZulfikarAdnan\\Visitor\\": "src/"
+        }
+    }
+}
